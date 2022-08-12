@@ -92,10 +92,33 @@
 }
 .bgContainer_plans .bg_Container_plans_item_list_fre #priceFree {
   padding: 20px 0 10px 29px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 2.3em;
+  font-weight: 700;
+  color: #1E2338;
+}
+.bgContainer_plans .bg_Container_plans_item_list_fre #priceFree strong {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: auto;
+  color: #1E2338;
+}
+.bgContainer_plans .bg_Container_plans_item_list_fre #priceFree span {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: auto;
+  color: #828799;
 }
 .bgContainer_plans .bg_Container_plans_item_list_fre #describeFree {
   padding: 0px 31px 20px;
   border-bottom: 1px solid #EEEEEE;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.8em;
+  font-weight: 400;
+  line-height: auto;
+  color: #828799;
 }
 .bgContainer_plans .bg_Container_plans_item_list_fre ul {
   list-style: none;
@@ -142,10 +165,33 @@
 }
 .bgContainer_plans .bg_Container_plans_item_list_basic #priceBasic {
   padding: 20px 0 10px 29px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 2.3em;
+  font-weight: 700;
+  color: #1E2338;
+}
+.bgContainer_plans .bg_Container_plans_item_list_basic #priceBasic strong {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: auto;
+  color: #1E2338;
+}
+.bgContainer_plans .bg_Container_plans_item_list_basic #priceBasic span {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: auto;
+  color: #828799;
 }
 .bgContainer_plans .bg_Container_plans_item_list_basic #describeBasic {
   padding: 0px 31px 20px;
   border-bottom: 1px solid #EEEEEE;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.8em;
+  font-weight: 400;
+  line-height: auto;
+  color: #828799;
 }
 .bgContainer_plans .bg_Container_plans_item_list_basic ul {
   list-style: none;
@@ -198,10 +244,33 @@
 }
 .bgContainer_plans .bg_Container_plans_item_list_pro #pricePro {
   padding: 20px 0 10px 29px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 2.3em;
+  font-weight: 700;
+  color: #1E2338;
+}
+.bgContainer_plans .bg_Container_plans_item_list_pro #pricePro strong {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: auto;
+  color: #1E2338;
+}
+.bgContainer_plans .bg_Container_plans_item_list_pro #pricePro span {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: auto;
+  color: #828799;
 }
 .bgContainer_plans .bg_Container_plans_item_list_pro #describePro {
   padding: 0px 31px 20px;
   border-bottom: 1px solid #EEEEEE;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.8em;
+  font-weight: 400;
+  line-height: auto;
+  color: #828799;
 }
 .bgContainer_plans .bg_Container_plans_item_list_pro ul {
   list-style: none;

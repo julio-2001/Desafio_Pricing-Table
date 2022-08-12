@@ -4,11 +4,29 @@
 
 @mixin price{
     padding: 20px 0 10px 29px;
+    @include tipografia(38, 700, auto, #1E2338 );
+
+   strong{
+
+      @include tipografia(px, 700, auto, #1E2338 );
+
+   }
+
+
+   span{
+      @include tipografia(px, 400,auto,#828799 );
+   }
+
+
+
+  
+    
 }
 
 @mixin describe{
     padding: 0px 31px 20px;
     border-bottom: 1px solid #EEEEEE;
+    @include tipografia(14, 400, auto, #828799);
 }
 
 @mixin list{
