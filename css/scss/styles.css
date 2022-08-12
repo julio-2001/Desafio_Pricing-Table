@@ -58,6 +58,8 @@
   background: #F9FBFC;
   display: flex;
   justify-content: center;
+  /***********************/
+  /***********************/
 }
 .bgContainer_plans .bg_Container_plans_item {
   background: #ffffff;
@@ -82,7 +84,164 @@
   position: relative;
   top: -75px;
 }
+.bgContainer_plans .bg_Container_plans_item_list_fre {
+  width: 100%;
+  height: calc(100% - 60px);
+  display: flex;
+  flex-direction: column;
+}
+.bgContainer_plans .bg_Container_plans_item_list_fre #priceFree {
+  padding: 20px 0 10px 29px;
+}
+.bgContainer_plans .bg_Container_plans_item_list_fre #describeFree {
+  padding: 0px 31px 20px;
+  border-bottom: 1px solid #EEEEEE;
+}
+.bgContainer_plans .bg_Container_plans_item_list_fre ul {
+  list-style: none;
+  padding: 20px 0 0 36px;
+  display: flex;
+  flex-direction: column;
+}
+.bgContainer_plans .bg_Container_plans_item_list_fre ul li {
+  display: flex;
+  padding-bottom: 17px;
+}
+.bgContainer_plans .bg_Container_plans_item_list_fre ul li p {
+  padding-left: 15px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.8em;
+  font-weight: 400;
+  line-height: auto;
+  color: #828799;
+}
+.bgContainer_plans .bg_Container_plans_item_list_fre button {
+  width: 296px;
+  height: 49px;
+  background: transparent;
+  border: 1px solid #1D539E;
+  border-radius: 8px;
+  margin: 0 auto;
+  cursor: pointer;
+  transition: 0.2s;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.12em;
+  font-weight: 600;
+  line-height: auto;
+  color: #1D539E;
+  margin-top: 103px;
+}
+.bgContainer_plans .bg_Container_plans_item_list_fre button:hover {
+  transform: scale(1.1);
+}
+.bgContainer_plans .bg_Container_plans_item_list_basic {
+  width: 100%;
+  height: calc(100% - 75px);
+  display: flex;
+  flex-direction: column;
+}
+.bgContainer_plans .bg_Container_plans_item_list_basic #priceBasic {
+  padding: 20px 0 10px 29px;
+}
+.bgContainer_plans .bg_Container_plans_item_list_basic #describeBasic {
+  padding: 0px 31px 20px;
+  border-bottom: 1px solid #EEEEEE;
+}
+.bgContainer_plans .bg_Container_plans_item_list_basic ul {
+  list-style: none;
+  padding: 20px 0 0 36px;
+  display: flex;
+  flex-direction: column;
+}
+.bgContainer_plans .bg_Container_plans_item_list_basic ul li {
+  display: flex;
+  padding-bottom: 17px;
+}
+.bgContainer_plans .bg_Container_plans_item_list_basic ul li p {
+  padding-left: 15px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.8em;
+  font-weight: 400;
+  line-height: auto;
+  color: #828799;
+}
+.bgContainer_plans .bg_Container_plans_item_list_basic button {
+  width: 296px;
+  height: 49px;
+  background: transparent;
+  border: 1px solid #1D539E;
+  border-radius: 8px;
+  margin: 0 auto;
+  cursor: pointer;
+  transition: 0.2s;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.12em;
+  font-weight: 600;
+  line-height: auto;
+  color: #1D539E;
+  background: #1D539E;
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.25em;
+  font-weight: 600;
+  color: #ffffff;
+  margin-top: 51px;
+}
+.bgContainer_plans .bg_Container_plans_item_list_basic button:hover {
+  transform: scale(1.1);
+}
+.bgContainer_plans .bg_Container_plans_item_list_pro {
+  width: 100%;
+  height: calc(100% - 60px);
+  display: flex;
+  flex-direction: column;
+}
+.bgContainer_plans .bg_Container_plans_item_list_pro #pricePro {
+  padding: 20px 0 10px 29px;
+}
+.bgContainer_plans .bg_Container_plans_item_list_pro #describePro {
+  padding: 0px 31px 20px;
+  border-bottom: 1px solid #EEEEEE;
+}
+.bgContainer_plans .bg_Container_plans_item_list_pro ul {
+  list-style: none;
+  padding: 20px 0 0 36px;
+  display: flex;
+  flex-direction: column;
+}
+.bgContainer_plans .bg_Container_plans_item_list_pro ul li {
+  display: flex;
+  padding-bottom: 17px;
+}
+.bgContainer_plans .bg_Container_plans_item_list_pro ul li p {
+  padding-left: 15px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.8em;
+  font-weight: 400;
+  line-height: auto;
+  color: #828799;
+}
+.bgContainer_plans .bg_Container_plans_item_list_pro button {
+  width: 296px;
+  height: 49px;
+  background: transparent;
+  border: 1px solid #1D539E;
+  border-radius: 8px;
+  margin: 0 auto;
+  cursor: pointer;
+  transition: 0.2s;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.12em;
+  font-weight: 600;
+  line-height: auto;
+  color: #1D539E;
+  margin-top: 25px;
+}
+.bgContainer_plans .bg_Container_plans_item_list_pro button:hover {
+  transform: scale(1.1);
+}
 
+/******************/
 #planFree {
   padding: 30px;
   width: 100%;

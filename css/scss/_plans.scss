@@ -1,6 +1,49 @@
 @import "var";
 @import "responsive";
 
+
+@mixin price{
+    padding: 20px 0 10px 29px;
+}
+
+@mixin describe{
+    padding: 0px 31px 20px;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+@mixin list{
+    list-style: none;
+    padding: 20px 0 0 36px ;
+    display: flex;
+    flex-direction: column;
+    
+
+    li{
+        display: flex;
+        padding-bottom: 17px;
+        p{
+            padding-left: 15px;
+            @include tipografia(14, 400, auto, $text-list)
+        }
+    }
+}
+
+@mixin button{
+    width: 296px;
+    height: 49px;
+    background: transparent;
+    border:1px solid #1D539E ;
+    border-radius: 8px;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: .2s;
+
+    &:hover{
+        transform:scale(1.1);
+    }
+    @include tipografia(18, 600, auto, #1D539E);
+}
+
 .bgContainer_plans{
     width:100%;
     height: 50%;
@@ -22,12 +65,12 @@
         box-shadow: 0 1px 2px rgba(142,150,185,0.25);
     }
        
+    /***********************/
+    //essas são os 3 caixas dos planos
     .free{
         //plano free
         position: relative;
-        top: -75px;
-        
-        
+        top: -75px; 
     }
 
     //plano basic
@@ -36,23 +79,110 @@
         height: 490px;
         top: -85px;
         
-        
-        
     }
 
     //plano profissional
     .pro{
         position: relative;
         top:-75px;
-        
-        
     }
+    /***********************/
+
+
+    //Aqui são as caixas que ficarão as listas
+
+
+    .bg_Container_plans_item_list_fre{
+        
+        width: 100%;
+        height: calc(100% - 60px);
+        display: flex;
+        flex-direction:column;
+
+        #priceFree{
+            @include price();
+        }
+
+        #describeFree{
+            @include describe();
+        }
+
+        ul{
+            @include list();
+            
+        }
+
+        button{
+            @include button();
+            margin-top: calc(120px - 17px);
+        }
+    }
+
+    .bg_Container_plans_item_list_basic{
+        //caixa plano Basic 
+       
+        width: 100%;
+        height: calc(100% - 75px);
+        display: flex;
+        flex-direction:column;
+
+        #priceBasic{
+            @include price();
+            
+        }
+
+        #describeBasic{
+            @include describe();
+        }
+
+        ul{
+            @include list()
+        }
+
+        button{
+            @include button();
+            background:#1D539E; 
+            color:#ffffff ;
+            @include tipografia(20, 600, auto,#ffffff);
+            margin-top: calc(68px - 17px);
+        }
+    }
+    
+    .bg_Container_plans_item_list_pro{
+      
+        width: 100%;
+        height: calc(100% - 60px);
+        display: flex;
+        flex-direction:column;
+
+        #pricePro{
+            @include price();
+           
+        }
+
+        #describePro{
+            @include describe();
+        }
+
+        ul{
+            @include list()
+        }
+
+        button{
+            @include button();
+            margin-top: calc(42px - 17px);
+        }
+
+    }
+
 }
 
 
 
 
 
+/******************/
+//São as caixas em cima da lista 
 
 //Plan Free
 #planFree{
