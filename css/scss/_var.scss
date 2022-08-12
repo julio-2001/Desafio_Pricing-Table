@@ -1,0 +1,91 @@
+
+//background
+$background-up:#1D539E;
+$background-bottom:#F9FBFC;
+/*********************/
+
+
+// h1 ,p
+$text-primary:#ffffff;
+/*********************/
+
+
+
+//text Plan Free e Pro 
+$text-FreePro:#1E2338;
+/*********************/
+
+
+
+
+
+//text Plan Basic
+$text-basic:#1D539E;
+$text-basic-popular:#ffffff;
+/*********************/
+
+
+
+
+// lista de todos os planos
+$text-list:#828799;
+/*********************/
+
+
+//buttons
+$button-primary:#1D539E;
+$button-secundary:#ffffff;
+/*********************/
+
+//text buttons free, basic e pro
+$text-button-prymary:#ffffff ; 
+$text-button-secundary:#1D539E;
+/*********************/
+
+// icons
+$color-icons:#59CE9F;
+/*********************/
+
+
+//Tipografia
+@mixin tipografia($size, $weight,$lineHei,$color){
+    font-family: 'Open Sans', sans-serif,;
+    @if $size ==  48{
+        font-size: 3em;
+        line-height: $lineHei;
+        color:$color;
+        font-weight: $weight;
+    }
+
+    @else if $size == 20{
+        font-size: 1.25em;
+        font-weight: $weight;
+        color:$color;
+    }
+
+    @else if $size == 18{
+        font-size: 1.12em;
+        font-weight: $weight;
+        line-height: $lineHei;
+        color:$color;
+    }
+    @else if $size == 16{
+        font-size: 1em;
+        font-weight: $weight;
+        line-height: $lineHei;
+        color:$color;
+
+    }
+    @else if $size == 14{
+        font-size: 0.8em;
+        font-weight: $weight;
+        line-height: $lineHei;
+        color:$color;
+    }
+    @else if $size == 12{
+        font-size: 0.75em;
+        font-weight: $weight;
+        line-height: $lineHei;
+        color:$color;
+    }
+}

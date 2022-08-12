@@ -1,0 +1,105 @@
+@import "var";
+@import "responsive";
+
+.bgContainer_plans{
+    width:100%;
+    height: 50%;
+    flex-wrap: wrap;
+    position: absolute;
+    background: $background-bottom;
+    display: flex;
+    justify-content: center;
+    
+
+    .bg_Container_plans_item{
+        background: #ffffff;
+        width: 355px;
+        height: 470px;
+        margin: 5px;
+        display: inline-block;
+        margin: 5px 10px;
+        border-radius: 8px;
+        box-shadow: 0 1px 2px rgba(142,150,185,0.25);
+    }
+       
+    .free{
+        //plano free
+        position: relative;
+        top: -75px;
+        
+        
+    }
+
+    //plano basic
+    .basic{
+        position: relative;
+        height: 490px;
+        top: -85px;
+        
+        
+        
+    }
+
+    //plano profissional
+    .pro{
+        position: relative;
+        top:-75px;
+        
+        
+    }
+}
+
+
+
+
+
+
+//Plan Free
+#planFree{
+    padding: 30px;
+    width: 100%;
+    height:50px;
+    
+    p{
+        @include tipografia(18, 600, auto, $text-FreePro)
+    }
+}
+
+//Plan Basic
+#planBasic{
+    //caixa amarela
+
+    //TODO colocar variavel
+    background: #FFCC29;
+    width: 100%;
+    height:75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius:9px 8px 0 0;
+    box-shadow: 0 1px 2px rgba(142,150,185,0.25);
+
+    p{
+        margin-left:30px;
+        @include tipografia(20, 600, auto, $text-basic)
+    }
+
+    span{
+        margin-right: 20px;
+        padding: 8px 24px 8px 24px;
+        border-radius: 40px;
+        background: #1D539E;
+        @include tipografia(12, 600, auto, $text-basic-popular)
+    }
+}
+
+//Plan Pro
+#planPro{
+    padding: 30px;
+    width: 100%;
+    height:50px;
+
+    p{
+        @include tipografia(18, 600, auto, $text-FreePro)
+    }
+}

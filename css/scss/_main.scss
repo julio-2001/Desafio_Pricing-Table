@@ -1,0 +1,38 @@
+@import "var";
+
+
+.bgContainer{
+    // max-width: 960px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    width: 100%;
+    
+    
+    
+    
+    
+    .bgContainer_text{
+        background: $background-up;
+        max-height: 450px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 100px 0;
+        height: 500px;
+        
+        h1{
+            @include tipografia(48, bold,auto,$text-primary)
+        }
+        
+
+        p{
+            text-align: center;
+            @include tipografia(18,regular, 1.4,$text-primary);
+            margin-top: 15px;
+            
+        }
+        
+    }
+}
+
